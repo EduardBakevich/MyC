@@ -38,15 +38,15 @@
 
 // Задача 4
 
-Console.Clear();
-Console.Write("Введите любое трехзначное число -> ");
-int num = Convert.ToInt32(Console.ReadLine());
+// Console.Clear();
+// Console.Write("Введите любое трехзначное число -> ");
+// int num = Convert.ToInt32(Console.ReadLine());
 
-if (num >= 100 && num <= 999)
-{
-    Console.WriteLine(num%10);
-}
-else
-{
-    Console.WriteLine("вы ввели не трехначное число!!!");
-}
+// if (num >= 100 && num <= 999)
+// {
+//     Console.WriteLine(num%10);
+// }
+// else
+// {
+//     Console.WriteLine("вы ввели не трехначное число!!!");
+// }
