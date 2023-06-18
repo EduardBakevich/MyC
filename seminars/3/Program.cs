@@ -43,7 +43,7 @@
 
 // double Distance (double xa, double ya, double xb, double yb)
 // {
-//     return Math.Round(Math.Sqrt(Math.Pow(xb-xa, 2) + Math.Pow(yb-ya, 2)), 2);
+// return Math.Round(Math.Sqrt(Math.Pow(xb-xa, 2) + Math.Pow(yb-ya, 2)), 2);
 // }
 // Console.WriteLine ("Input x coordinate point A: ");
 // double xa = Convert.ToDouble(Console.ReadLine ());
@@ -92,7 +92,7 @@
 
 
 
-// /* Программа принимает на вход число N и выдает квадраты чисел от 1 до N*/
+// /* Программа принимает на вход число N и выдает квадраты чисел от 1 до N */
 // Console.Clear();
 
 // Console.WriteLine("Введите любое натуральное число больше единицы => ");
