@@ -48,18 +48,18 @@
 /* Программа принимает на вход число (N) 
 и выдаёт таблицу кубов чисел от 1 до N.*/
 
-Console.Clear();
+// Console.Clear();
 
-Console.WriteLine("Введите любое натуральное число больше единицы => ");
-int num = Convert.ToInt32(Console.ReadLine());
-int count = 1;
+// Console.WriteLine("Введите любое натуральное число больше единицы => ");
+// int num = Convert.ToInt32(Console.ReadLine());
+// int count = 1;
 
-if (num < 1)
-{
-    Console.WriteLine("Мы же просили число побольше(((");
-}
-while (count <= num)
-{
-    Console.WriteLine($" {count} в кубе => {Math.Pow(count, 3)}");
-    count ++;
-}
+// if (num < 1)
+// {
+//     Console.WriteLine("Мы же просили число побольше(((");
+// }
+// while (count <= num)
+// {
+//     Console.WriteLine($" {count} в кубе => {Math.Pow(count, 3)}");
+//     count ++;
+// }
