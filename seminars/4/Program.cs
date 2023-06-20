@@ -49,6 +49,35 @@
 
 /* Программа принимает на вход число и выдает количество цифр в числе*/
 
+// Console.Clear();
+
+// int HowMany (int n)
+// {
+//     int dez = 0;
+//     for (int i = 0; n >= 1; i++)
+//     {
+//         n = n / 10;
+//         dez += 1;
+//     }
+//     return dez;
+// }
+// Console.WriteLine("Введите число: " );
+// int n = Convert.ToInt32(Console.ReadLine());
+// System.Console.WriteLine($"Ваше число состоит из {HowMany (n)} чисел");
 
 /* Программа принимает на вход число Н и 
 выдает произведение чисел от 1 до Н (факториал числа Н)*/
+// Console.Clear();
+
+// int Factorial (int n)
+// {
+//     int Fact = 1;
+//     for (int i = 1; i <= n; i++)
+//     {
+//         Fact = Fact * i;
+//     }
+//     return Fact;
+// }
+// Console.WriteLine("Введите число: " );
+// int n = Convert.ToInt32(Console.ReadLine());
+// System.Console.WriteLine($"Факториал числа {n} => {Factorial(n)}");
