@@ -86,42 +86,91 @@
 /*Задайте массив, размер которого и элементы может выбрать пользователь. 
 Проверить по запросу пользователя, есть ли в массиве определенный элемент*/
 
-int[] YourArray (int size)
-{
-    int[] array = new int[size];
-    for (int i = 0; i < size; i++)
-    {
-        Console.Write("Введите элемент массива (целое число): ");
-        array[i] = Convert.ToInt32(Console.ReadLine());
-    }
-    return array;
-}
+// int[] YourArray (int size)
+// {
+//     int[] array = new int[size];
+//     for (int i = 0; i < size; i++)
+//     {
+//         Console.Write("Введите элемент массива (целое число): ");
+//         array[i] = Convert.ToInt32(Console.ReadLine());
+//     }
+//     return array;
+// }
 
-void PrintArray(int[] array)
-{
-    for (int i = 0; i < array.Length; i++)
-    {
-        System.Console.Write(array[i] + " ");
-    }
-    System.Console.WriteLine();
-}
-bool Number(int[] array, int num)
-{
-    for (int i = 0; i < array.Length; i++)
-    {
-        if (num == array[i]) return true;
-    }
-    return false;
-}
+// void PrintArray(int[] array)
+// {
+//     for (int i = 0; i < array.Length; i++)
+//     {
+//         System.Console.Write(array[i] + " ");
+//     }
+//     System.Console.WriteLine();
+// }
+// bool Number(int[] array, int num)
+// {
+//     for (int i = 0; i < array.Length; i++)
+//     {
+//         if (num == array[i]) return true;
+//     }
+//     return false;
+// }
 
-System.Console.WriteLine("Введите желаемый размер массива: ");
-int size = Convert.ToInt32(Console.ReadLine());
+// System.Console.WriteLine("Введите желаемый размер массива: ");
+// int size = Convert.ToInt32(Console.ReadLine());
+// int[] array = YourArray(size);
 
-System.Console.WriteLine("Введите число, чтобы проверить, есть ли оно в массиве: ");
-int num = Convert.ToInt32(Console.ReadLine());
-int[] array = YourArray(size);
-if (Number(array, num) == true) Console.WriteLine($"{num} есть в массиве");
-else Console.WriteLine($"{num} нет в массиве");
-/*Массив из трех случайных чисел. Найдите чило элементов, лежащих в диапазоне,
+// System.Console.WriteLine("Введите число, чтобы проверить, есть ли оно в массиве: ");
+// int num = Convert.ToInt32(Console.ReadLine());
+
+// if (Number(array, num) == true) Console.WriteLine($"{num} есть в массиве");
+// else Console.WriteLine($"{num} нет в массиве");
+
+// PrintArray(array);
+
+/*Массив из 123х случайных чисел. Найдите число элементов, лежащих в диапазоне,
 указанном пользователем*/
 
+// int[] RandomArray (int size, int minValue, int maxValue)
+// {
+//     int[] array = new int[size];
+//     for (int i = 0; i < size; i++)
+//     {
+//         array[i] = new Random().Next(minValue, maxValue + 1);
+//     }
+//     return array;
+// }
+
+// void Array(int[] array)
+// {
+//     for (int i = 0; i < array.Length; i++)
+//     {
+//         System.Console.Write(array[i] + " ");
+//     }
+//     System.Console.WriteLine();
+// }
+
+// int Total(int[] array, int min, int max)
+// {
+//     int sum = 0;
+//     for (int i = min; i < max; i++)
+//     {
+//         sum++;
+//     }
+//     return sum;
+// }
+
+// System.Console.WriteLine("Введите желаемый размер массива: ");
+// int size = Convert.ToInt32(Console.ReadLine());
+// System.Console.WriteLine("Введите минимальное значение диапазона цифр массива: ");
+// int minValue = Convert.ToInt32(Console.ReadLine());
+// System.Console.WriteLine("Введите максимальное значение диапазона цифр массива: ");
+// int maxValue = Convert.ToInt32(Console.ReadLine());
+
+// Array(RandomArray(size, minValue, maxValue));
+
+// System.Console.WriteLine("Введите минимальное значение выбранного вами диапазона: ");
+// int min = Convert.ToInt32(Console.ReadLine());
+// System.Console.WriteLine("Введите максимальное значение выбранного вами диапазона: ");
+// int max = Convert.ToInt32(Console.ReadLine());
+
+// int[] array = RandomArray(size, minValue, maxValue); 
+// System.Console.WriteLine($"В массиве {Total(array, min, max)} элемент(а/ов) в выбранном вами диапазоне");
