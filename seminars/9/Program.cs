@@ -49,12 +49,12 @@
 
 // int FindPow(int a, int b)
 // {
-//     if (b > 0) return FindPow(a, b - 1) * a;
-//     else return 1;
+//     if (b > 0) return FindPow(a, b - 1) + a * a;
+//     else return a;
 // }
 
 // System.Console.WriteLine("Введите число A: ");
 // int a = Convert.ToInt32(Console.ReadLine());
 // System.Console.WriteLine("Введите число B: ");
 // int b = Convert.ToInt32(Console.ReadLine());
-// Console.WriteLine(FindPow(a, b));
+// Console.WriteLine(FindPow(2, 4));
